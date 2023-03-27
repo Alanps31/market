@@ -6,8 +6,9 @@ const produtoRoutes = require('./routes/produtos')
 
 const serverPort = 8000;
 
-app.use(produtoRoutes)
+app.use('/static',express.static('public'))
 
+app.use(produtoRoutes)
 
 app.listen(serverPort,(err)=> {
     if(err) {

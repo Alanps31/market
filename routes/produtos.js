@@ -1,9 +1,10 @@
 const express = require('express');
-
+const paths = require('../pathsApp')
 const router = express.Router();
 
+
 router.get('/',(req,res) => {
-    res.send('Rota principal')
+    res.sendFile(paths.views + "/login.html")
 })
 
 router.get('/usuarios',(req, res) => {
