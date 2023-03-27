@@ -1,5 +1,6 @@
 const pathsDict  = {
-    views: __dirname + '\\views'
+    views: __dirname + '/views'
 }
+
 
 module.exports = pathsDict
