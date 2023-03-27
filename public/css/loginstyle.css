@@ -9,11 +9,11 @@ body {
 }
 
 .loginPanel {
-    padding-top: 10%;
+    padding-top: 2%;
 }
 
 .formLogin {
-    display: block;
+    float: right;
     width: 300px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.459);
