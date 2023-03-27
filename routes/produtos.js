@@ -4,7 +4,7 @@ const router = express.Router();
 
 
 router.get('/',(req,res) => {
-    res.sendFile(paths.views + "/login.html")
+    res.send("Hello There")
 })
 
 router.get('/usuarios',(req, res) => {
