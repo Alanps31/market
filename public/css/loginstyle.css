@@ -15,17 +15,19 @@ body {
 .formLogin {
     display: block;
     width: 300px;
-    height: 300px;
+    height: 200px;
     background-color: rgba(0, 0, 0, 0.459);
     border-radius: 10px;
-
 }
 
 .formLogin>input {
+    width: 230px;
+    float: right;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.507);
     color: white;
     margin-top: 10px;
+    margin-right: 10px;
     letter-spacing: 0.5px;
     outline: none;
 }
@@ -33,7 +35,7 @@ body {
 .formLogin>label {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
-    margin-top: 34px;
+    margin-top: 25px;
     color: white;
 }
 .formLogin>label:hover {
@@ -42,7 +44,15 @@ body {
 }
 
 #loginButton {
+    position: relative;
     margin-top: 30px;
     margin-right: 5px;
     float: right;
+}
+
+#aviso { 
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
 }
